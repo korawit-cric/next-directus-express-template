@@ -1,4 +1,4 @@
-# Turborepo: NextJs + Vite + Express + Storybook Template
+# Turborepo: NextJs + Vite + Express + Storybook Template + Directus
 
 This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
 

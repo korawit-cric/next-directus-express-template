@@ -1,5 +1,5 @@
 {
-  "name": "poc-be-structure",
+  "name": "api",
   "version": "1.0.0",
   "description": "A small scale CRUD back-end POC ( with authentication?) to conceptualize Clean Architecture(Entities, Repositories and Controllers) and demonstrate Mikrorm and Vitest. ",
   "main": "index.js",

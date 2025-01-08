@@ -16,7 +16,7 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "cric-ultimate-monorepo-template",
+  "name": "next-directus-express-template",
   "packageManager": "npm@10.2.3",
   "workspaces": [
     "apps/*",
