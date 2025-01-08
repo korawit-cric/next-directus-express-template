@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  directus:
+    image: directus/directus:11.3.5
+    container_name: directus
+    ports:
+      - "8055:8055"
+    volumes:
+      - ./database:/directus/database
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+    environment:
+      SECRET: "replace-with-secure-random-value"
+      ADMIN_EMAIL: "admin@example.com"
+      ADMIN_PASSWORD: "d1r3ctu5"
+
+      DB_CLIENT: "postgres"
+      DB_HOST: "postgres"
+      DB_PORT: "5432"
+      DB_DATABASE: "next-directus-express-db"
+      DB_USER: "postgres"
+      DB_PASSWORD: "postgres"
+
+      WEBSOCKETS_ENABLED: "true"
+    depends_on:
+      - postgres
+    networks:
+      - backend
