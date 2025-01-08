@@ -7,7 +7,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "docker:up": "docker-compose -f docker-compose.central.yml up",
+    "docker:down": "docker-compose -f docker-compose.central.yml down"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

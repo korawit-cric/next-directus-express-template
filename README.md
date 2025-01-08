@@ -11,9 +11,9 @@ This Turborepo includes the following packages and apps:
 ### Apps and Packages
 
 - `api`: an [Express](https://expressjs.com/) server
-- `storefront`: a [Next.js](https://nextjs.org/) app
-- `admin`: a [Vite](https://vitejs.dev/) single page app
+- `web`: a [Next.js](https://nextjs.org/) app
 - `workshop`: Component documentation/workshop site with 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
+- `directus`: 
 
 - `@repo/eslint-config`: ESLint configurations used throughout the monorepo
 - `@repo/jest-presets`: Jest configurations
@@ -22,6 +22,28 @@ This Turborepo includes the following packages and apps:
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+
+## Running the Project
+
+To set up and run the project, follow these steps:
+
+### Step 1: Start Docker Containers
+
+Run the following command to start the Docker containers (Postgres, Directus, etc.):
+
+```bash
+npm run docker:up
+```
+
+### Step 2: Start the Development Environment
+
+Once the Docker containers are up and running, you can start the development environment by running:
+```bash
+npm i
+```
+```bash
+npm run dev
+```
 
 ### Utilities
 
