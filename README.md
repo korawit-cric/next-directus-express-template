@@ -42,6 +42,9 @@ Once the Docker containers are up and running, you can start the development env
 npm i
 ```
 ```bash
+npm run setup-env
+```
+```bash
 npm run dev
 ```
 

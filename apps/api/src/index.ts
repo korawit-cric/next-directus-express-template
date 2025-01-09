@@ -24,12 +24,12 @@ const initializeServer = async () => {
   //   to be included in the request
   // - Access-Control-Allow-Credentials: specifies whether cookies are allowed
   //   to be included in the request
-  app.use(
-    cors({
-      credentials: true, // allow cookies to be included in the request
-      origin: process.env.CLIENT_ORIGIN, // specify the domains that are allowed to access the resource
-    })
-  );
+  // app.use(
+  //   cors({
+  //     credentials: true, // allow cookies to be included in the request
+  //     origin: process.env.CLIENT_ORIGIN, // specify the domains that are allowed to access the resource
+  //   })
+  // );
 
   // This middleware parses the request body as JSON and populates req.body with the parsed data.
   // It also parses the request body as URL encoded data (key=value&foo=bar) and populates req.body with the parsed data.

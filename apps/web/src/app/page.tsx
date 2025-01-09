@@ -1,4 +1,3 @@
-import { log } from "@repo/logger";
 import { CounterButton, Link } from "@repo/cric-ui/components";
 
 export const metadata = {
@@ -6,7 +5,6 @@ export const metadata = {
 };
 
 export default function Store(): JSX.Element {
-  log("Hey! This is the Store page.");
 
   return (
     <div className="container">
