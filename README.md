@@ -1,8 +1,6 @@
-# Turborepo: NextJs + Vite + Express + Storybook Template + Directus
+# MONEX-D (Monorepo Next Express Directus Template)
 
-This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
-
-This example also shows how to use [Workspace Configurations](https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces).
+A boilerplate template for building a modern monorepo architecture with Next.js, Express, and Directus. Designed to streamline development and enhance scalability for full-stack applications. 
 
 ## What's inside?
 
