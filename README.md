@@ -11,11 +11,10 @@ This Turborepo includes the following packages and apps:
 - `api`: an [Express](https://expressjs.com/) server
 - `web`: a [Next.js](https://nextjs.org/) app
 - `workshop`: Component documentation/workshop site with 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
-- `directus`: 
+- `directus`:  A fully integrated headless CMS designed to manage and serve dynamic content through an intuitive interface and robust API
 
 - `@repo/eslint-config`: ESLint configurations used throughout the monorepo
 - `@repo/jest-presets`: Jest configurations
-- `@repo/logger`: isomorphic logger (a small wrapper around console.log)
 - `@repo/cric-ui`: prebuilt component with tailwind and cn utilities
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
 
